@@ -1,0 +1,45 @@
+.chars {
+    border: 2px solid white;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 4%;
+    background-image: url("file:///C:/webb/rdr/grimur-grimsson-YDJ2DmpqAe0-unsplash.jpg");
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    border-radius: 10px; 
+}
+
+.chars h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Tapestry', cursive;
+}
+
+.chars h1 span {
+    color: red;
+}
+
+.image {
+    
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.chars figure img {
+    box-shadow: 0 0 0.15em 0.15em #ca6702;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+}
+
+.chars figcaption {
+    text-align: center;
+    padding-top: 5px;
+    font-weight: 550;
+    font-size: 20px;
+    text-decoration: underline;
+}

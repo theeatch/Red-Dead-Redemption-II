@@ -1,0 +1,105 @@
+
+.buy{
+    margin-top: 25px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.buyborder{
+
+    border: 5px solid red;
+    box-shadow: 0 0 0.25em 0.2em #e56b6f;
+    height:450px;
+    width:80%;
+    position:relative;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.col{
+
+}
+.bcol1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    width:65%;
+}
+a{
+    text-decoration: none;
+}
+.bcol1 h1{
+    text-align: center;
+    width:300px;
+    text-decoration: none;
+    font-family: 'Tapestry', cursive;
+    margin-bottom: 15px;
+    color:red;
+    font-weight:bolder;
+    border-radius: 2px;
+    background-color: #1f2937;
+    box-sizing: border-box;
+    box-shadow: 0 0 0.15em 0.15em #001427;
+    transition: all 0.2s ease-in-out;
+    
+}
+
+.bcol1 h1:hover{
+    transform: translateX(0.2em) translateY(-0.2em);
+    box-shadow: 0 0 0.5em 0.5em #001427;
+}
+
+.bcol1 p{
+    width:80%; 
+    font-size: 23px;
+    padding:1em 3em 1em;
+    font-style: italic;
+    color: whitesmoke;
+}
+.buyy{
+    border: 2px solid #ee9b00;
+    text-decoration: underline;
+    display:inline;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    padding:7px 13px 7px;
+    background-color: red;
+    color:black;
+    font-family: 'Tapestry', cursive;
+    transition: transform 0.1s ease-in-out, box-shadow 0.1s  ease-in-out;;
+}
+
+.buyy:hover{
+    transform: translateX(10px) translateY(-10px);
+    box-shadow: 0 0 0.25em 0.25em #fee440;
+    font-weight: 550;
+}
+
+
+
+.bcol2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+
+    width:45%;
+}
+.bcol2 img{
+    height:300px;
+    width:450px;
+    border:2px solid #d62828;
+    box-shadow: 0 0 0.25em 0.2em #e56b6f;
+    transition: all 150ms ease-in-out;
+
+} 
+.bcol2 img:hover{
+    transform: translateX(-0.5em) translateY(0.5em);
+    box-shadow: 0 0 0.5em 0.5em #001427;
+}

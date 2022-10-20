@@ -1,0 +1,46 @@
+.logo {
+    width: 42px;
+}
+
+body {
+    /* background-image: url(https://images.alphacoders.com/976/976234.png) ; */
+    background-color: #1f2937;
+}
+
+
+.headd {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgba( 202,233,255,0.2)
+    
+}
+
+a {
+    color: #ff4d6d;
+    font-size: 20px;
+    font-family: 'Alkalami', serif;
+    cursor: pointer;
+}
+
+#clink {
+    margin-left: 70%;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+#clink div {
+    display: flex;
+    margin: 10px;
+    margin-top: 0;
+    justify-content: space-evenly;
+}
+
+@media (max-width:1230px){
+    .logo{
+        width: 10px;
+    }
+}
