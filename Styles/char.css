@@ -1,16 +1,17 @@
 .chars {
-    border: 2px solid white;
+    /* border: 2px solid white; */
     margin-top: 50px;
     display: flex;
     flex-direction: column;
     padding: 4%;
-    background-image: url("file:///C:/webb/RED DEAD/icons/grimur-grimsson-YDJ2DmpqAe0-unsplash.jpg");
+    /* background-image: url("file:///C:/webb/RED DEAD/icons/grimur-grimsson-YDJ2DmpqAe0-unsplash.jpg");
     background-blend-mode: darken;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     border-radius: 10px; 
 }
 
 .chars h1 {
+    color:#ffffff;
     font-size: 50px;
     text-align: center;
     font-family: 'Tapestry', cursive;
@@ -42,4 +43,6 @@
     font-weight: 550;
     font-size: 20px;
     text-decoration: underline;
+    color:#f0f3bd;
 }
+

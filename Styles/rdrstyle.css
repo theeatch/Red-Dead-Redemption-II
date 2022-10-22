@@ -1,5 +1,6 @@
 .logo {
     width: 42px;
+    box-shadow: 0 0 0.1em 0.1em #95d5b2;
 }
 
 body {
@@ -12,12 +13,12 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    background-color: rgba( 202,233,255,0.2)
+    background-color: rgba( 168, 209, 245,0.1)
     
 }
 
 a {
-    color: #ff4d6d;
+    color: #cae9ff;
     font-size: 20px;
     font-family: 'Alkalami', serif;
     cursor: pointer;
@@ -31,7 +32,12 @@ a {
     justify-content: flex-end;
 
 }
-
+#clink a{
+    transition: all;
+}
+#clink a:hover{
+    text-decoration: underline;
+}
 #clink div {
     display: flex;
     margin: 10px;
