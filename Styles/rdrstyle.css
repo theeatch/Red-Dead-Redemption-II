@@ -10,7 +10,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    background-color: rgba( 168, 209, 245,0.1)
+    background-color: rgba( 168, 209, 245,0.1);
 }
 
 a {
