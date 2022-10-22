@@ -1,0 +1,31 @@
+.reviews h1 {
+    letter-spacing: 0.1em;
+    color:red;
+    text-decoration: underline;
+    text-transform: Uppercase;
+    text-align: center;
+    display:block;
+    font-family: 'Tapestry', cursive;
+}
+
+
+.reviews blockquote{
+    text-align: center;
+    color:white;
+    font-style: italic;
+    padding:5px 100px;
+    font-size: 25px;
+}
+
+.reviews footer{
+    font-size: 20px;
+    margin-right: 7em;
+    text-align: right;
+    color:red;
+}
+.reviews span{
+    text-decoration: underline;
+}
+.reviews{
+    padding-bottom: 20px;
+}

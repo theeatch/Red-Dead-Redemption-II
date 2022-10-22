@@ -2,19 +2,15 @@
     width: 42px;
     box-shadow: 0 0 0.1em 0.1em #95d5b2;
 }
-
 body {
-    /* background-image: url(https://images.alphacoders.com/976/976234.png) ; */
     background-color: #1f2937;
 }
-
 
 .headd {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    background-color: rgba( 168, 209, 245,0.1)
-    
+    background-color: rgba( 168, 209, 245,0.1);
 }
 
 a {
