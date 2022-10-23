@@ -1,4 +1,5 @@
 .buy{
+    
     margin-top: 25px;
     display:flex;
     flex-direction: row;
@@ -7,7 +8,7 @@
 }
 
 .buyborder{
-
+    background-color: rgba(48, 72, 101,0.2);
     border: 5px solid red;
     box-shadow: 0 0 0.25em 0.2em #e56b6f;
     height:450px;
